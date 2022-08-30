@@ -12,3 +12,7 @@ withLabel.args ={
 
 }
 
+export const withLongText = (args) => <Checkbox {...args} />
+withLongText.args ={
+	label: "Storybook helps you build UI components in isolation from your app's business logic, data, and context"
+}
