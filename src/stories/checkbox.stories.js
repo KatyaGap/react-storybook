@@ -1,7 +1,7 @@
 import React from 'react';
 import Checkbox from '../Components/Checkbox/Checkbox';
 export default {
-	title: "Example/Checkbox",
+	title: "UI/Checkbox",
 	component: Checkbox
 }
 export const withLabel = (args) => <Checkbox {...args}/>
